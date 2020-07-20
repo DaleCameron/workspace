@@ -14,7 +14,7 @@ PLUGIN_START_DIR="$HOME/.vim/pack/stuff/start"
 git clone https://github.com/jnurmine/Zenburn.git "$PLUGIN_START_DIR/Zenburn"
 git clone https://github.com/altercation/vim-colors-solarized "$PLUGIN_START_DIR/vim-colors-soloarized"
 git clone https://github.com/tpope/vim-fugitive "$PLUGIN_START_DIR/vim-fugitive"
-
+git clone --depth 1 https://github.com/dense-analysis/ale.git "$PLUGIN_START_DIR/ale"
 
 cp ./vimrc ~/.vimrc
 
@@ -25,3 +25,5 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 nvm install node
 
 npm install -g gatsby-cli
+
+

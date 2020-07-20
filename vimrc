@@ -58,3 +58,6 @@ set nu rnu
 
 
 
+packloadall
+silent! helptags ALL
+silent! helptags ALL
